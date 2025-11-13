@@ -10,7 +10,9 @@
                                                                                                     "ecr:GetDownloadUrlForLayer",
                                                                                                     "ecr:InitiateLayerUpload",
                                                                                                     "ecr:PutImage",
-                                                                                                    "ecr:UploadLayerPart"
+                                                                                                    "ecr:UploadLayerPart",
+                                                                                                    "ecr:CreateRepository",
+                                                                                                    "ecr:DescribeRepositories"
                                                                            ],
                                                                            "Resource": "arn:aws:ecr:<region>:<account-id>:repository/*"
                                                   },

@@ -1,5 +1,7 @@
 # AWS Containers Retail Sample - Cart Service
 
+<!-- GitOps Test Commit -->
+
 | Language | Persistence     |
 | -------- | --------------- |
 | Java     | Amazon DynamoDB |

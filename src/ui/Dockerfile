@@ -3,6 +3,7 @@ FROM public.ecr.aws/amazonlinux/amazonlinux:2023 AS build-env
 
 # We tell DNF not to install Recommends and Suggests packages, keeping our
 # installed set of packages as minimal as possible.
+# ------ Test Commit ------.
 RUN dnf --setopt=install_weak_deps=False install -q -y \
     maven \
     java-21-amazon-corretto-headless \
